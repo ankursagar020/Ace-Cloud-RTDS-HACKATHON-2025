@@ -9,7 +9,7 @@ from typing import Dict, Any, List, Optional
 # --------------------------
 # Configuration
 # --------------------------
-GEMINI_API_KEY = "AIzaSyDLMVJbi9AU6zFM_WeXjlKNYieqAbiEzlI"
+GEMINI_API_KEY = "######yDLMVJbi9AU6zFM_WeXjlKNYieqAbiEzlI"
 genai.configure(api_key=GEMINI_API_KEY)
 
 OPENSTACK_CLOUD_CONFIG = {
