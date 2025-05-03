@@ -1,0 +1,74 @@
+Project Description: AI Cloud Operations Assistant
+
+A) What Does This Code Do?
+This is a smart helper that lets you control your cloud (OpenStack) using normal English commands. You can talk to it like a friend, and it will create/delete virtual machines (VMs), networks, and storage automatically.
+
+B)Key Features
+1)Talk Like a Human
+Example:
+You type: "Make a small VM named webserver"
+-The AI understands: "Create a VM with flavor 'small' and name 'webserver'"
+
+2)Works with OpenStack Cloud
+-Creates VMs, networks, storage
+-Resizes or deletes them
+-Uses OpenStack’s tools (Nova, Neutron, Cinder)
+
+3)Safety Checks
+-Only admins can delete things (VMs, networks, storage)
+-Asks "Are you sure?" before deleting anything
+-Guides You Step-by-Step
+
+4)If you forget details (like VM size), it asks questions:
+-"Which flavor (size) do you want? Options: small, medium, large"
+
+5)Keeps a Diary
+-Saves all commands and results in a database (requests.db)
+
+
+C) How It Works:
+Step 1: You Type a Command
+
+Example: "Delete the VM named test"
+
+Step 2: AI Understands You
+
+Uses Google’s Gemini AI to:
+
+Guess what you want to do (create/delete/resize)
+
+Find details (name, size, network) in your command
+
+Step 3: Ask Missing Details
+
+If you forget something:
+
+"Which network should the VM use? Options: private-net, public-net"
+
+Step 4: Check Permissions
+
+If you try to delete something:
+
+Checks if you’re an admin
+
+If not: "Sorry, only admins can delete things!"
+
+Step 5: Confirm Dangerous Actions
+
+For deletions:
+
+"WARNING: This will delete 'test' forever! Type 'y' to confirm."
+
+Step 6: Do the Work
+
+Talks to OpenStack to:
+
+Create VMs/networks/storage
+
+Resize VMs
+
+Delete things (if allowed)
+
+Step 7: Save Results
+
+Keeps a record of everything in a database.
