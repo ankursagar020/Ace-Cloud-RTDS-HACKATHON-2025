@@ -1,6 +1,7 @@
 # Ace-Cloud-RTDS-HACKATHON-2025
-LINK(for frontend): https://cloud-scribe-ai-pilot.lovable.app/
+
 Developed for the Ace Cloud x RTDS Hackathon, this project explores Agentic AI—autonomous agents that can plan, reason, and act independently in dynamic environments. It focuses on intelligent decision-making with minimal human input, solving real-world problems through adaptive and goal-oriented behavior.
+LINK(for frontend): https://cloud-scribe-ai-pilot.lovable.app/
 
 Background / Context
 Cloud operators routinely perform tasks such as creating, resizing, or deleting VMs, volumes, and networks. Today this requires translating intent into a series of CLI commands or API calls. AceCloud challenges participants to build an agentic AI that accepts natural‑language instructions, plans the required OpenStack API calls, and executes them after a confirmation step—returning results conversationally.
