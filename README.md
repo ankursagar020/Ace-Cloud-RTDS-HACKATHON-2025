@@ -3,6 +3,10 @@
 Developed for the Ace Cloud x RTDS Hackathon, this project explores Agentic AI—autonomous agents that can plan, reason, and act independently in dynamic environments. It focuses on intelligent decision-making with minimal human input, solving real-world problems through adaptive and goal-oriented behavior.
 LINK(for frontend): https://cloud-scribe-ai-pilot.lovable.app/
 
+Demo Video:
+Part1: https://drive.google.com/file/d/1XzHoMgHZfkXFJRKpfT5Y4MY8rferdF4E/view?usp=sharing
+Part2: https://drive.google.com/file/d/1tXKwOSMMY8B9u9Pf8bdGJxJdjn39vZAa/view?usp=sharing (Please note that audio quality might not be the best coz there was too much of background noises)
+
 Agentic AI for Cloud Operations
 🧠 Overview
 Agentic AI for Cloud Operations is an intelligent assistant built for managing OpenStack infrastructure using natural language instructions. Designed for cloud operators, it reduces the need to manually execute CLI commands or API calls by using a conversational interface powered by a language model. The system interprets user intent, validates it, seeks explicit confirmation, and securely executes the corresponding OpenStack API operations.
